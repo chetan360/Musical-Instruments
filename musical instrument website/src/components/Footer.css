@@ -1,0 +1,85 @@
+.contact {
+  background-color: #fff;
+  padding: 5% 10%;
+}
+
+h4 {
+  background: transparent;
+  font-size: 20px;
+  font-weight: 500;
+  color: #000;
+}
+
+.first-info,
+.second-info,
+.third-info,
+.fourth-info {
+  background-color: #fff;
+}
+
+.contact-info {
+  background: transparent;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, auto));
+  gap: 3rem;
+}
+
+.contact-info p,
+.contact-info a {
+  color: #000;
+  background: transparent;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 1.5;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transform: all 0.42s;
+}
+
+.contact-info p {
+  line-height: 2;
+}
+
+.fourth-info h5 {
+  color: #000;
+  font-weight: 500;
+  font-size: 16px;
+  margin: 0;
+}
+
+.review-social-icons2,
+.first-info h1 {
+  background-color: #fff;
+}
+
+.contact-us {
+  background: transparent;
+  color: #eee;
+  text-transform: capitalize;
+  margin: 10% 0;
+}
+
+.social-icon2 {
+  background: transparent;
+  margin: 5px;
+}
+
+.fourth-info .btn {
+  color: #eee;
+  padding: 15px;
+  border-radius: 10px;
+  background: rgb(41, 41, 209);
+  border: none;
+  font-weight: 500;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .contact-info {
+    grid-template-columns: 1fr;
+  }
+  .contact-us {
+    margin: 5% 0;
+  }
+}
